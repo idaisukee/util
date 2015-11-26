@@ -24,8 +24,8 @@ class MilTime < String
     "#@string"
   end
 
-  def to_t
-    Time.new(1000, 10, 10, @s_hour.to_i, @s_minute.to_i)
+  def to_t(year = 1000, month = 10, day = 10)
+    Time.new(year, month, day, @s_hour.to_i, @s_minute.to_i)
   end
 
 
