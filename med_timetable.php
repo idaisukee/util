@@ -76,7 +76,8 @@ class Lecture {
 
         $this->start = $start;
         $this->finish = $finish;
-        $this->suject = $subject;
+        $this->subject = $subject;
         $this->th = $th;
     }
 }
+
